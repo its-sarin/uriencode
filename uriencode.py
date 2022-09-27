@@ -1,7 +1,7 @@
 import urllib.parse
 
 string_to_encode = input("Enter string to encode: ")
-pass_count = int(input("Encode how many times? ")) or 1
+pass_count = int(input("Encode how many times (default: 1)? ") or 1)
 
 
 def encode():
