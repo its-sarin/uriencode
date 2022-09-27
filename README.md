@@ -2,15 +2,14 @@
 
 Tiny python tool that will uri encode a string one or more times
 
-## Help output
+## Usage
 
+    $ python3 uriencode.py
+    Enter string to encode: <this is my text>
+    Encode how many times? 1
+    ** ** ** ** **
+    ** encoding **
+    ** ** ** ** **
+    Encoded string: 
+    %3Cthis%20is%20my%20text%3E
 
-    URI encode any given string
-
-    positional arguments:
-      input                 The string to encode
-
-    options:
-      -h, --help            show this help message and exit
-      --pass PASS_COUNT, -p PASS_COUNT
-                            Number of times to pass input through the encoding function (default: 1)
