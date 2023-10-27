@@ -15,6 +15,7 @@ def encode():
     if args.all:
         encoded_string = urlparse.quote(args.string, safe='')
         encoded_string = encoded_string.replace('.', '%2E')
+        encoded_string = encoded_string.replace('~', '%7E')
     else:
         encoded_string = urlparse.quote(args.string)
 
